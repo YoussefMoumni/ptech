@@ -4,17 +4,14 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { HomeComponent } from './home/home.component';
 import { InfosComponent } from './infos/infos.component';
 import { InternshipsComponent } from './internships/internships.component';
-import { ServicesComponent } from './services/services.component';
+import { LoginComponent } from './login/login.component';
+import { MissionComponent } from './mission/mission.component';
 
 const routes: Routes = [
 
   {
     path: 'home',
     component: HomeComponent,
-  },
-  {
-    path: 'services',
-    component: ServicesComponent
   },
   {
     path: 'interships',
@@ -25,8 +22,16 @@ const routes: Routes = [
     component: InfosComponent,
   },
   {
+    path: 'mission',
+    component: MissionComponent,
+  },
+  {
     path: 'Contacts',
     component: ContactsComponent,
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
   },
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
