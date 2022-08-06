@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.htmlpg{
+    font-family: 'roboto' , sans-serif;
+    font-size: 10px;
+
+}
+img{
+    width: 100%;
+}
+.allnews{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    
+}
+.blog{
+    width: 100%;
+    max-width: 98rem;
+    padding: 5rem;
+}
+.blog-img{
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translateX(-8rem);
+    position: relative;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+}
+.blog-img::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8)
+                                            rgba(114, 114, 114, 0.8));
+    box-shadow:.5rem .5rem 3rem 1px rgba(49, 49, 49, 0.05) ;
+    border-radius: .8rem;
+}
+.blog-date span{
+    display: block;
+    color: rgba(0,0,0,.05);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+.blog-tit{
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: #727272;
+
+}
+.blog-text{
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.7);
+}
+.blog-cta{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #000000 0%, rgba(114, 114, 114, 0.8) 100%);
+    border-radius: .8rem;
+    text-decoration: none;
+}
+.blog-cta:hover{
+    background-image: linear-gradient(to right,  rgba(114, 114, 114, 0.8) 0%, #000000 100%);
+    
+}
+
+@media  screen and (max-width: 1068px) {
+    .blog{
+        max-width: 80rem;
+    }
+    .blog-img{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
+}
+@media  screen and (max-width: 868px) {
+    .blog{
+        max-width: 70rem;
+    }
+   
+}
+@media  screen and (max-width: 768px) {
+    .blog{
+        padding: 2.5rem;
+        flex-direction: column;
+    }
+    .blog-img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -8rem);
+    }
+}
