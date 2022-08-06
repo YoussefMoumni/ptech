@@ -8,11 +8,8 @@ import { InternshipsComponent } from './internships/internships.component';
 import { InfosComponent } from './infos/infos.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MissionComponent } from './mission/mission.component';
-<<<<<<< HEAD
 import { NewsComponent } from './news/news.component';
-=======
 import { LoginComponent } from './login/login.component';
->>>>>>> 6c69d7a77f534e6b2e073b74b3606a9b6f178ca2
 
 @NgModule({
   declarations: [
@@ -22,11 +19,8 @@ import { LoginComponent } from './login/login.component';
     InfosComponent,
     ContactsComponent,
     MissionComponent,
-<<<<<<< HEAD
-    NewsComponent
-=======
-    LoginComponent
->>>>>>> 6c69d7a77f534e6b2e073b74b3606a9b6f178ca2
+    NewsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
