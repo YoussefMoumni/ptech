@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $playfair: 'Playfair Display', serif;
 $lato: 'Lato', sans-serif;
 
@@ -19,17 +19,21 @@ $smallest-breakpoint: 520px;
   color: #ffffff;
   font-family: $lato;
   padding: 2em;
-  height: 1300px;
+  height: 1050px;
   width: 100%;
+  
 }
 .cover__content {
   max-width: 1000px;
   margin: 0 auto;
+  
 }
 
 .top-section {
-  background-color: #ffffff;
-  color: #555C62;
+  
+  background: linear-gradient(to right, #000000 0%, gray 100%);
+  font-size: 12px;
+  color: #ffffff;
   padding: 3em; 
   margin-bottom: 4em;
   
@@ -240,7 +244,8 @@ $headline-border-offset: 0.5em;
   justify-content: center;
   margin-top: 100px;
   color: aliceblue;
-  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to right, #000000 0%, gray 100%);
+  font-size: 12px;
   
 }
 .logo{
