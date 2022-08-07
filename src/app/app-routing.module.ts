@@ -4,9 +4,9 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { HomeComponent } from './home/home.component';
 import { InfosComponent } from './infos/infos.component';
 import { InternshipsComponent } from './internships/internships.component';
-import { NewsComponent } from './news/news.component';
 import { LoginComponent } from './login/login.component';
 import { MissionComponent } from './mission/mission.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
   
@@ -30,17 +30,14 @@ const routes: Routes = [
     path: 'Contacts',
     component: ContactsComponent,
   },
-  
   {
     path: 'news',
     component: NewsComponent,
   },
-
-  {
+ {
     path: 'login',
     component: LoginComponent,
   },
-
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
 

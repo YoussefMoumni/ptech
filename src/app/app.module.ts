@@ -8,10 +8,10 @@ import { InternshipsComponent } from './internships/internships.component';
 import { InfosComponent } from './infos/infos.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MissionComponent } from './mission/mission.component';
-
 import { NewsComponent } from './news/news.component';
-
 import { LoginComponent } from './login/login.component';
+
+
 
 
 @NgModule({
@@ -22,9 +22,7 @@ import { LoginComponent } from './login/login.component';
     InfosComponent,
     ContactsComponent,
     MissionComponent,
-
     NewsComponent,
-
     LoginComponent,
 
   ],
