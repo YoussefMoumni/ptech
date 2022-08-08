@@ -1,91 +1,127 @@
-.goals{
-    color: black;
+body {
+	background: #262a2b;
 }
-h1{
-    color:blue;
-    display: flex;
-    justify-content: center;
+.tilesWrap {
+	padding: 0;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
 }
-h2{
-    color: rgb(231, 133, 21);
-    margin-left: 50px;
-    
+.tilesWrap li {
+	display: inline-block;
+	width: 20%;
+	min-width: 200px;
+	max-width: 230px;
+	padding: 80px 20px 40px;
+	position: relative;
+	vertical-align: top;
+	margin: 10px;
+	font-family: 'helvetica', san-serif;
+	min-height: 25vh;
+	background: #262a2b;
+	border: 1px solid #252727;
+	text-align: left;
 }
-.kolchi{
-    margin-bottom: 50px;
-<<<<<<< HEAD
- 
+.tilesWrap li h2 {
+	font-size: 114px;
+	margin: 0;
+	position: absolute;
+	opacity: 0.2;
+	top: 50px;
+	right: 10px;
+	transition: all 0.3s ease-in-out;
 }
-.textfin{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-    background-color: blue;
-    
+.tilesWrap li h3 {
+	font-size: 20px;
+	color: #b7b7b7;
+	margin-bottom: 5px;
 }
-.logo{
-    color:rgb(0, 17, 255);
-   display: flex;
-   justify-content: center;
-   font-family: 'Josefin Sans', sans-serif;
+.tilesWrap li p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #b7b7b7;
+	margin-top: 5px;
+}
+.tilesWrap li button {
+	background: transparent;
+	border: 1px solid #b7b7b7;
+	padding: 10px 20px;
+	color: #b7b7b7;
+	border-radius: 3px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	transform: translateY(-40px);
+	opacity: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.tilesWrap li button:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 120%;
+	background: #b7b7b7;
+	top: 0;
+	opacity: 0;
+	left: -140px;
+	border-radius: 0 20px 20px 0;
+	z-index: -1;
+	transition: all 0.3s ease-in-out;
+	
+}
+.tilesWrap li:hover button {
+	transform: translateY(5px);
+	opacity: 1;
+}
+.tilesWrap li button:hover {
+	color: #262a2b;
+}
+.tilesWrap li button:hover:before {
+	left: 0;
+	opacity: 1;
+}
+.tilesWrap li:hover h2 {
+	top: 0px;
+	opacity: 0.6;
+}
 
+.tilesWrap li:before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	z-index: -1;
+	background: #fff;
+	transform: skew(2deg, 2deg);
 }
-h4{
-    color: aliceblue;
+.tilesWrap li:after {
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0.02);
 }
-=======
-    color: aqua;
+.tilesWrap li:nth-child(1):before {
+	background: gray;
+background: -webkit-linear-gradient(to right, black, gray);
+background: linear-gradient(to right, gray, black);
 }
-#btnlogin {
-    background: #222;
-    height: 50px;
-    width: 150px;
-    border: none;
-    border-radius: 10px;
-    color: #eee;
-    font-size: 40px;
-    font-family: 'Cookie', cursive;
-    position:relative;
-    transition: 1s;
-    -webkit-tap-highlight-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding-top: 5px;
-  }
-  
-  #btnlogin #circle {
-    width: 5px;
-    height: 5px;
-    background: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    overflow: hidden;
-    transition: 500ms;
-  }
-  
-  .noselect {
-    -webkit-touch-callout: none;
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-              font-size: 30px;
-  }
-  
-  #btnlogin:hover {
-    background:#ea1d6f ;
-  }
-  
-  #btnlogin:hover #circle {
-    height: 50px;
-    width: 150px;
-    left: 0;
-    border-radius: 0;
-    border-bottom: 2px solid #eee;
-  }
->>>>>>> 6c69d7a77f534e6b2e073b74b3606a9b6f178ca2
+.tilesWrap li:nth-child(2):before {
+	background: gray;
+background: -webkit-linear-gradient(to right, gray, gray);
+background: linear-gradient(to right, black, gray);
+}
+.tilesWrap li:nth-child(3):before {
+	background: #000000;
+background: -webkit-linear-gradient(to right, gray, gray);
+background: linear-gradient(to right, gray, black);
+}
+.tilesWrap li:nth-child(4):before {
+	background: gray;
+background: -webkit-linear-gradient(to right, gray, gray);
+background: linear-gradient(to right, black, gray);
+}
