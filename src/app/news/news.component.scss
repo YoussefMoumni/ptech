@@ -87,6 +87,15 @@ img{
     background-image: linear-gradient(to right,  rgba(114, 114, 114, 0.8) 0%, #000000 100%);
     
 }
+.sp1{
+    background-image: url('/assets/images/sp1.jpg')
+}
+.sp2{
+    background-image: url('/assets/images/sp2.jpg')
+}
+.sp3{
+    background-image: url('/assets/images/sp3.jpg')
+}
 
 @media  screen and (max-width: 1068px) {
     .blog{
