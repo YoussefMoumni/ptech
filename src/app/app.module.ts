@@ -9,6 +9,9 @@ import { MissionComponent } from './mission/mission.component';
 import { NewsComponent } from './news/news.component';
 import { LoginComponent } from './login/login.component';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +21,7 @@ import { LoginComponent } from './login/login.component';
     MissionComponent,
     NewsComponent,
     LoginComponent,
+
   ],
   imports: [
     BrowserModule,

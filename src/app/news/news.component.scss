@@ -175,6 +175,15 @@ a {
     text-align: center;
   }
 }
+.sp1{
+    background-image: url('/assets/images/sp1.jpg')
+}
+.sp2{
+    background-image: url('/assets/images/sp2.jpg')
+}
+.sp3{
+    background-image: url('/assets/images/sp3.jpg')
+}
 
 @media screen and (max-width: 500px) {
   .cards-wrapper {

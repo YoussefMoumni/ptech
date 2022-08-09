@@ -26,14 +26,10 @@ const routes: Routes = [
     component: ContactsComponent,
   },
   {
-    path: ' mission',
-    component:  MissionComponent,
-  },
-  {
     path: 'news',
     component: NewsComponent,
   },
-{
+ {
     path: 'login',
     component: LoginComponent,
   },
