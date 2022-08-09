@@ -1,54 +1,54 @@
 body {
     background-color: #f9f9fa
-}
-@media (min-width:992px) {
+  }
+  @media (min-width:992px) {
     .page-container {
         max-width: 1140px;
         margin: 0 auto
     }
-
+  
     .page-sidenav {
         display: block !important
     }
-}
-
-.padding {
+  }
+  
+  .padding {
     padding: 2rem
-}
-
-.w-32 {
+  }
+  
+  .w-32 {
     width: 32px !important;
     height: 32px !important;
     font-size: .85em
-}
-
-.tl-item .avatar {
+  }
+  
+  .tl-item .avatar {
     z-index: 2
-}
-
-.circle {
+  }
+  
+  .circle {
     border-radius: 500px
-}
-
-.gd-warning {
+  }
+  
+  .gd-warning {
     color: #fff;
     border: none;
     background: #f4c414 linear-gradient(45deg, #f4c414, #f45414)
-}
-
-.timeline {
+  }
+  
+  .timeline {
     position: relative;
     border-color: rgba(160, 175, 185, .15);
     padding: 0;
     margin: 0
-}
-
-.p-4 {
+  }
+  
+  .p-4 {
     padding: 1.5rem !important
-}
-
-.block,
-.card {
+  }
+  
+  .block,
+  .card {
     background: linear-gradient(to right, #000000 0%, gray 100%);
   font-size: 12px;
     border-width: 0;
@@ -56,44 +56,44 @@ body {
     box-shadow: 0 1px 3px rgba(255, 255, 255, 0.05);
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
-    height: 450px;
+    height: 505px;
     width: 835px;
-}
-
-.mb-4,
-.my-4 {
+  }
+  
+  .mb-4,
+  .my-4 {
     margin-bottom: 1.5rem !important
-}
-
-.tl-item {
+  }
+  
+  .tl-item {
     border-radius: 3px;
     position: relative;
     display: -ms-flexbox;
     display: flex
-}
-
-.tl-item>* {
+  }
+  
+  .tl-item>* {
     padding: 10px
-}
-
-.tl-item .avatar {
+  }
+  
+  .tl-item .avatar {
     z-index: 2
-}
-
-.tl-item:last-child .tl-dot:after {
+  }
+  
+  .tl-item:last-child .tl-dot:after {
     display: none
-}
-
-.tl-item:last-child .tl-dot:after {
+  }
+  
+  .tl-item:last-child .tl-dot:after {
     display: none
-}
-.tl-dot {
+  }
+  .tl-dot {
     position: relative;
     border-color: rgba(160, 175, 185, .15)
-}
-
-.tl-dot:after,
-.tl-dot:before {
+  }
+  
+  .tl-dot:after,
+  .tl-dot:before {
     content: '';
     position: absolute;
     border-color: inherit;
@@ -105,9 +105,9 @@ body {
     top: 15px;
     left: 50%;
     transform: translateX(-50%)
-}
-
-.tl-dot:after {
+  }
+  
+  .tl-dot:after {
     width: 0;
     height: auto;
     top: 25px;
@@ -116,15 +116,15 @@ body {
     border-top-width: 0;
     border-bottom-width: 0;
     border-radius: 0
-}
-
-.tl-dot {
+  }
+  
+  .tl-dot {
     position: relative;
     border-color: rgba(160, 175, 185, .15)
-}
-
-.tl-dot:after,
-.tl-dot:before {
+  }
+  
+  .tl-dot:after,
+  .tl-dot:before {
     content: '';
     position: absolute;
     border-color: inherit;
@@ -136,9 +136,9 @@ body {
     top: 15px;
     left: 50%;
     transform: translateX(-50%)
-}
-
-.tl-dot:after {
+  }
+  
+  .tl-dot:after {
     width: 0;
     height: auto;
     top: 25px;
@@ -147,20 +147,20 @@ body {
     border-top-width: 0;
     border-bottom-width: 0;
     border-radius: 0
-}
-
-.tl-content p:last-child {
+  }
+  
+  .tl-content p:last-child {
     margin-bottom: 0
-}
-
-.tl-date {
+  }
+  
+  .tl-date {
     font-size: .85em;
     margin-top: 2px;
     min-width: 100px;
     max-width: 100px
-}
-
-.avatar {
+  }
+  
+  .avatar {
     position: relative;
     line-height: 1;
     border-radius: 500px;
@@ -177,22 +177,22 @@ body {
     flex-shrink: 0;
     border-radius: 500px;
     box-shadow: 0 5px 10px 0 rgba(50, 50, 50, .15)
-}
-
-.b-warning {
+  }
+  
+  .b-warning {
     border-color: #777777!important;
-}
-
-.b-primary {
+  }
+  
+  .b-primary {
     border-color: #777777!important;
-}
-
-.b-danger {
+  }
+  
+  .b-danger {
     border-color: #777777!important;
-}
-
-
-body {
+  }
+  
+  
+  body {
   color: #f9f9fa;
   font-size: large;
   font-family: 'Josefin Sans', sans-serif;
@@ -203,11 +203,12 @@ body {
   padding: 2em;
   height: 1000px;
   width: 1325px;
-}
-h1{
-    color: #000000;
-}
-.textfin{
+  }
+  h2{
+    color: #777777;
+    text-decoration: underline;
+  }
+  .textfin{
     display: flex;
     justify-content: center;
     margin-top: 200px;
