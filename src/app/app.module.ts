@@ -8,6 +8,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { MissionComponent } from './mission/mission.component';
 import { NewsComponent } from './news/news.component';
 import { LoginComponent } from './login/login.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 
@@ -21,6 +22,7 @@ import { LoginComponent } from './login/login.component';
     MissionComponent,
     NewsComponent,
     LoginComponent,
+    AboutUsComponent,
 
   ],
   imports: [

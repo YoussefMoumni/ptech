@@ -1,6 +1,4 @@
-body {
-	background: #262a2b;
-}
+
 .tilesWrap {
 	padding: 0;
 	margin: 50px auto;
@@ -12,10 +10,10 @@ body {
 	width: 20%;
 	min-width: 200px;
 	max-width: 230px;
-	padding: 80px 20px 40px;
+	padding: 80px 60px 40px;
 	position: relative;
 	vertical-align: top;
-	margin: 10px;
+	margin: 40px;
 	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
 	background: #262a2b;
@@ -93,7 +91,7 @@ body {
 	right: -2px;
 	bottom: -2px;
 	z-index: -1;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	transform: skew(2deg, 2deg);
 }
 .tilesWrap li:after {
