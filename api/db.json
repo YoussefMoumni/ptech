@@ -1,0 +1,18 @@
+{
+    "promo": [
+      {
+        "id": 1,
+        "fname": "Houssam",
+        "lname": "Zaggaf",
+        "encad": "YM",
+        "email": "mail"
+      },
+      {
+        "id": 2,
+        "fname": "Houssam",
+        "lname": "Nejmi",
+        "encad": "YM",
+        "email": ""
+      }
+    ]
+  }
