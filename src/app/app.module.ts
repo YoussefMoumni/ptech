@@ -9,6 +9,8 @@ import { MissionComponent } from './mission/mission.component';
 import { NewsComponent } from './news/news.component';
 import { LoginComponent } from './login/login.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 
 
 
@@ -29,7 +31,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
