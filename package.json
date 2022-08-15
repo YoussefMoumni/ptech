@@ -7,15 +7,17 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "api": "json-server api/db.json --routes api/routes.json --no-cors=true"
+    "api": "json-server --watch api/db.json"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.1.2",
+    "@angular/cdk": "^14.1.2",
     "@angular/common": "^14.1.2",
     "@angular/compiler": "^14.1.2",
     "@angular/core": "^14.1.2",
     "@angular/forms": "^14.1.2",
+    "@angular/material": "^14.1.2",
     "@angular/platform-browser": "^14.1.2",
     "@angular/platform-browser-dynamic": "^14.1.2",
     "@angular/router": "^14.1.2",
