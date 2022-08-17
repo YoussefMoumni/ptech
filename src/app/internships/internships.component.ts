@@ -8,7 +8,7 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./internships.component.scss']
 })
 export class InternshipsComponent implements OnInit {
-  displayedColumns: string[] = ['name','email'];
+  displayedColumns: string[] = ['name','email','encadrant'];
 
   promos : any;
   public errorFromSubscribe: any;
