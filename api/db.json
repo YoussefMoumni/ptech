@@ -1,149 +1,10 @@
 {
-  "promos": [{
-      "year": 2022,
-      "infos": [{
-          "id": 1,
-
-          "fname": "Fahd",
-          "lname": "Rahali",
-          "encad": "",
-          "email": "fahdrahali35@gmail.com"
-        },
-        {
-          "id": 2,
-
-          "fname": "Meryem",
-          "lname": "belmouaddine",
-          "encad": "",
-          "email": "belmouaddine.ptech@gmail.com"
-        },
-        {
-          "id": 3,
-
-          "fname": "amine",
-          "lname": "karhat",
-          "encad": "",
-          "email": "karhat.ptech2020@gmail.com"
-        },
-        {
-          "id": 4,
-
-          "fname": "abdel fattah",
-          "lname": "amil",
-          "encad": "",
-          "email": "fattah.ptech2020@gmail.com"
-        },
-        {
-          "id": 5,
-
-          "fname": "Mohammed Amine",
-          "lname": "Goudou",
-          "encad": "",
-          "email": "goudougma@gmail.com"
-        },
-        {
-          "id": 6,
-
-          "fname": "Hamza",
-          "lname": "Ouchen",
-          "encad": "",
-          "email": "ouchenhamza218@gmail.com"
-        },
-        {
-          "id": 7,
-
-          "fname": "Hala",
-          "lname": "SAIELHAQ",
-          "encad": "",
-          "email": "halasaielhaq@gmail.com"
-        },
-        {
-          "id": 8,
-
-          "fname": " Mohamed Reda",
-          "lname": "Atif",
-          "encad": "",
-          "email": "m.redaatif@gmail.com"
-        },
-        {
-          "id": 9,
-
-          "fname": "Chaimae",
-          "lname": "Aboulkhair",
-          "encad": "",
-          "email": "chaimaeaboulkhair@gmail.com"
-        },
-        {
-          "id": 10,
-
-          "fname": "Aymen",
-          "lname": "Bouyoussef",
-          "encad": "",
-          "email": "aymenbouyoussef312@gmail.com"
-        },
-        {
-          "id": 11,
-
-          "fname": "Hind",
-          "lname": "Elmoussi",
-          "encad": "",
-          "email": "hindelmoussi@gmail.com"
-        },
-        {
-          "id": 12,
-
-          "fname": "Houssam",
-          "lname": "Nejmi",
-          "encad": "Youssef Moumni",
-          "email": "nejmi.houssam4@gmail.com"
-        },
-        {
-          "id": 13,
-
-          "fname": "Yassine",
-          "lname": "AIT M'BAREK",
-          "encad": "",
-          "email": "yaitmbarek000@gmail.com"
-        },
-        {
-          "id": 14,
-
-          "fname": "Houssam",
-          "lname": "Zaggaf",
-          "encad": "Youssef Moumni",
-          "email": "zaggafho@gmail.com"
-        },
-        {
-          "id": 15,
-
-          "fname": "Nisrine",
-          "lname": "Lazrak",
-          "encad": "",
-          "email": "Lazraqnisrine10@gmail.com"
-        },
-        {
-          "id": 16,
-
-          "fname": "Mouad",
-          "lname": "Mourafiq",
-          "encad": "",
-          "email": "mouadmourafiq25@gmail.com"
-        },
-        {
-          "id": 17,
-
-          "fname": "Othmane",
-          "lname": "Oukada",
-          "encad": "",
-          "email": "okdothmane@gmail.com"
-        }
-      ]
-    },
+  "promos": [
     {
       "year": 2022,
-      "infos": [{
+      "infos": [
+        {
           "id": 1,
-
           "fname": "Fahd",
           "lname": "Rahali",
           "encad": "",
@@ -151,7 +12,6 @@
         },
         {
           "id": 2,
-
           "fname": "Meryem",
           "lname": "belmouaddine",
           "encad": "",
@@ -159,7 +19,6 @@
         },
         {
           "id": 3,
-
           "fname": "amine",
           "lname": "karhat",
           "encad": "",
@@ -167,7 +26,6 @@
         },
         {
           "id": 4,
-
           "fname": "abdel fattah",
           "lname": "amil",
           "encad": "",
@@ -175,7 +33,6 @@
         },
         {
           "id": 5,
-
           "fname": "Mohammed Amine",
           "lname": "Goudou",
           "encad": "",
@@ -183,7 +40,6 @@
         },
         {
           "id": 6,
-
           "fname": "Hamza",
           "lname": "Ouchen",
           "encad": "",
@@ -191,7 +47,6 @@
         },
         {
           "id": 7,
-
           "fname": "Hala",
           "lname": "SAIELHAQ",
           "encad": "",
@@ -199,7 +54,6 @@
         },
         {
           "id": 8,
-
           "fname": " Mohamed Reda",
           "lname": "Atif",
           "encad": "",
@@ -207,7 +61,6 @@
         },
         {
           "id": 9,
-
           "fname": "Chaimae",
           "lname": "Aboulkhair",
           "encad": "",
@@ -215,7 +68,6 @@
         },
         {
           "id": 10,
-
           "fname": "Aymen",
           "lname": "Bouyoussef",
           "encad": "",
@@ -223,7 +75,6 @@
         },
         {
           "id": 11,
-
           "fname": "Hind",
           "lname": "Elmoussi",
           "encad": "",
@@ -231,7 +82,6 @@
         },
         {
           "id": 12,
-
           "fname": "Houssam",
           "lname": "Nejmi",
           "encad": "Youssef Moumni",
@@ -239,7 +89,6 @@
         },
         {
           "id": 13,
-
           "fname": "Yassine",
           "lname": "AIT M'BAREK",
           "encad": "",
@@ -247,7 +96,6 @@
         },
         {
           "id": 14,
-
           "fname": "Houssam",
           "lname": "Zaggaf",
           "encad": "Youssef Moumni",
@@ -255,7 +103,6 @@
         },
         {
           "id": 15,
-
           "fname": "Nisrine",
           "lname": "Lazrak",
           "encad": "",
@@ -263,7 +110,6 @@
         },
         {
           "id": 16,
-
           "fname": "Mouad",
           "lname": "Mourafiq",
           "encad": "",
@@ -271,7 +117,6 @@
         },
         {
           "id": 17,
-
           "fname": "Othmane",
           "lname": "Oukada",
           "encad": "",
