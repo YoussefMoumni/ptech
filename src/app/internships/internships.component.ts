@@ -8,24 +8,20 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./internships.component.scss']
 })
 export class InternshipsComponent implements OnInit {
-  displayedColumns: string[] = ['name'];
+  displayedColumns: string[] = ['name','email'];
 
-  data: any;
-
-  public baseurl = 'http://localhost:3000/promos';
   promos : any;
   public errorFromSubscribe: any;
   public errorFromCatch: any;
   dataSource : any;
   constructor(private infoService:InfoService) { 
-    this.getData();
+    this.getPromos();
   }
 
-  getData() {
-    this.infoService.getData().subscribe((response) => {
-      this.data = response;
-      this.dataSource = this.data[0].infos;
-      console.log(this.data[0]);
+  getPromos() {
+    this.infoService.getPromos().subscribe((response) => {
+      this.promos = response;
+      this.dataSource = this.promos[0].infos;
     });
   }
 

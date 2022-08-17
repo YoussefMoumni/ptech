@@ -123,3 +123,10 @@ background: linear-gradient(to right, gray, black);
 background: -webkit-linear-gradient(to right, gray, gray);
 background: linear-gradient(to right, black, gray);
 }
+
+
+table.mat-table {
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

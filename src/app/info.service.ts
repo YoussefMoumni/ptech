@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class InfoService {
 
   constructor(private httpClient: HttpClient) { }
-  getData(): Observable<any> {
+  getPromos(): Observable<any> {
     return this.httpClient.get('http://localhost:3000/promos');
   }
 }
